@@ -13,7 +13,8 @@ Este repositorio se actualizará continuamente con nuevos recursos y materiales 
 
 ## Ayuda
 
-Si tienes preguntas o necesitas asistencia adicional, no dudes en contactar. Estoy aquí para apoyarte en tu camino de aprendizaje.
+Si tienes preguntas o necesitas asistencia adicional, no dudes en contactar. 
+*Recordar que los ejecutab les etan compilados para macos!*
 
 - Email: [e.eguskiza@opendeusto.es](mailto:e.eguskiza@opendeusto.es)
 

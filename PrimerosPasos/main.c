@@ -2,7 +2,7 @@
 #include "operaciones.h" 
 
 int main() {
-    printf("Operaciones simples en C\n\n");
+    printf("Operaciones simples en C\n");
     printf("Sumas\n");
     int count; 
     for(count = 0; count < 10; count++)
