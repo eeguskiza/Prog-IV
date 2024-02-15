@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h> // Para usar funciones como toupper, isupper, islower, isdigit, isalpha
+#include "caracteres.h" // Incluimos nuestras funciones definidas
 
 int main() {
     char c;
@@ -14,23 +14,23 @@ int main() {
             printf("Carácter: '%c', Valor ASCII: %d\n", c, c);
 
             // Verifica si el carácter es una mayúscula
-            if (isupper(c)) {
+            if (isUpperCase(c)) {
                 printf("Es una mayúscula.\n");
-            } else if (islower(c)) { // Verifica si el carácter es una minúscula
+            } else if (isLowerCase(c)) { // Verifica si el carácter es una minúscula
                 printf("Es una minúscula.\n");
             }
 
             // Verifica si el carácter es un dígito
-            if (isdigit(c)) {
+            if (isNumber(c)) {
                 printf("Es un número.\n");
             }
 
             // Verifica si el carácter es una letra
-            if (isalpha(c)) {
+            if (isLetter(c)) {
                 printf("Es una letra.\n");
-                // Convierte y muestra la letra en mayúscula y minúscula
-                printf("En mayúsculas: %c\n", toupper(c));
-                printf("En minúsculas: %c\n", tolower(c));
+                // Convierte y muestra la letra en mayúsculas y minúsculas
+                printf("En mayúsculas: %c\n", toUpperCase(c));
+                printf("En minúsculas: %c\n", toLowerCase(c));
             } else { // Si no es una letra ni un número, se considera otro carácter
                 printf("Es otro tipo de carácter.\n");
             }
@@ -38,7 +38,7 @@ int main() {
 
     } while(c != 'q' && c != 'Q'); // Termina el bucle si el usuario introduce 'q' o 'Q'
 
-    printf("¡Si! '%c' es la letra que buscamos.\n", c);
+    printf("¡Sí! '%c' es la letra que buscamos.\n", c);
 
     return 0;
 }
