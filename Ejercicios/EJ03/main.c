@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "caracteres.h" // Incluimos nuestras funciones definidas
+#include "caracteres.h" 
 
 int main() {
     char c;
