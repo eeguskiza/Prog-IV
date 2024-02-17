@@ -6,10 +6,24 @@ Este repositorio contiene apuntes básicos y ejemplos de código sobre la progra
 
 Un programa en C típicamente consta de las siguientes partes:
 
-- **`main.c`**: El archivo principal que contiene la función `main()`, punto de entrada del programa.
-- **`operaciones.c`**: Un archivo que contiene la implementación de diversas funciones, como operaciones matemáticas simples.
-- **`operaciones.h`**: Un archivo de encabezado (`header`) que declara las funciones y `structs` utilizados en `operaciones.c`.
-- **`structs.h`**: Un archivo de encabezado que declara las estructuras de datos utilizadas en el programa.
+### src/
+
+Contiene los archivos fuente `.c`:
+
+- **`main.c`**: Archivo principal con la función `main()`, punto de entrada del programa.
+- **`operaciones.c`**: Implementación de funciones como operaciones matemáticas.
+
+### include/
+
+Alberga los archivos de encabezado `.h`:
+
+- **`operaciones.h`**: Declara funciones implementadas en `operaciones.c`.
+- **`structs.h`**: Declara estructuras de datos usadas en el programa.
+
+### bin/
+
+Esta carpeta contiene los ejecutables compilados del proyecto. Los archivos binarios resultantes de la compilación se almacenan aquí para facilitar la ejecución y las pruebas.
+
 
 ### Ejemplo de `main.c`
 
