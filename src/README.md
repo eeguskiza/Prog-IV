@@ -79,3 +79,8 @@ typedef struct {
 #endif 
 ```
 
+### Compilación y Ejecución
+```c
+gcc -I./include -o bin/nombreExe src/directorio/main.c src/directorio/operaciones.c
+```
+

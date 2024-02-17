@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "operaciones.h" 
+#include "../../include/operaciones.h"
 
 int main() {
     printf("Operaciones simples en C\n");
