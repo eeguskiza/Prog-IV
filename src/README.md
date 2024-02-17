@@ -25,9 +25,9 @@ Alberga los archivos de encabezado `.h`:
 Esta carpeta contiene los ejecutables compilados del proyecto. Los archivos binarios resultantes de la compilación se almacenan aquí para facilitar la ejecución y las pruebas.
 
 ### Apuntes variados
-- [Tipos de Datos en C](tiposDatos.md)
-- [Operadores en C](operadores.md)
-- [Estructuras de Control](flujo.md)
+- [Tipos de Datos en C](Apuntes/tiposDatos.md)
+- [Operadores en C](Apuntes/operadores.md)
+- [Estructuras de Control](Apuntes/flujo.md)
 
 
 ### Ejemplo de `main.c`
