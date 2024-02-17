@@ -85,5 +85,8 @@ Sustituir `nombreExe` por el nombre del ejecutable que se desea crear y `directo
 
 ```bash
 gcc -I./include -o bin/nombreExe src/directorio/main.c src/directorio/operaciones.c
+```
+Para ejecutar el programa:
+```bash
 ./bin/nombreExe
 ```
