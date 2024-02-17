@@ -18,7 +18,7 @@ Contiene los archivos fuente `.c`:
 Alberga los archivos de encabezado `.h`:
 
 - **`operaciones.h`**: Declara funciones implementadas en `operaciones.c`.
-- **`structs.h`**: Declara estructuras de datos usadas en el programa.
+- **`structs.h`**: Declara estructuras de datos usadas en el programa. Una estructura es un tipo de dato que permite agrupar variables relacionadas.
 
 ### bin/
 
@@ -80,7 +80,10 @@ typedef struct {
 ```
 
 ### Compilación y Ejecución
-```c
+
+Sustituir `nombreExe` por el nombre del ejecutable que se desea crear y `directorio` por el nombre del directorio donde se encuentran los archivos fuente.
+
+```bash
 gcc -I./include -o bin/nombreExe src/directorio/main.c src/directorio/operaciones.c
-```
+
 
