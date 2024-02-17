@@ -22,8 +22,9 @@ int main() {
     printf("El resultado de la suma es: %d\n", resultado);
     return 0;
 }
+```
 
-### Ejemplo de `main.c`
+### Ejemplo de `operaciones.c`
     
 ```c
 #include "operaciones.h" // Incluye el archivo de encabezado de operaciones
@@ -35,6 +36,7 @@ int suma(int a, int b) {
 int resta(int a, int b) {
     return a - b;
 }
+```
 
 ### Ejemplo de `operaciones.h`
 
@@ -46,6 +48,7 @@ int suma(int a, int b);
 int resta(int a, int b);
 
 #endif // OPERACIONES_H
+```
 
 ### Ejemplo de `structs.h`
 
@@ -60,4 +63,5 @@ typedef struct {
 } Punto;
 
 #endif 
+```
 
