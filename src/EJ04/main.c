@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "complex.h"
+#include "../../include/complex.h"
 
 int main() {
     Complex a = {2, 3};

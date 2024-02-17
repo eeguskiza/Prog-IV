@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "caracteres.h" 
+#include "../../include/caracteres.h" 
 
 int main() {
     char c;
