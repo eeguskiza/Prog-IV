@@ -5,7 +5,7 @@ Bienvenidos al repositorio de Programación IV, enfocado en la introducción y p
 ## Índice
 
 - **Tema 1: Primeros Pasos en C**
- - [Introducción a C](src/primerosPasos)
+    - [Introducción a C](src/primerosPasos)
 
 ## Información Adicional
 
