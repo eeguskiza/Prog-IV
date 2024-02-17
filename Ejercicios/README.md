@@ -21,3 +21,17 @@ int main() {
     printf("El resultado de la suma es: %d\n", resultado);
     return 0;
 }
+
+### Ejemplo de `main.c`
+    
+    ```c
+    #include "operaciones.h"
+
+    int suma(int a, int b) {
+        return a + b;
+    }
+
+    int resta(int a, int b) {
+        return a - b;
+    }
+
