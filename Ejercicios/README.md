@@ -9,12 +9,13 @@ Un programa en C típicamente consta de las siguientes partes:
 - **`main.c`**: El archivo principal que contiene la función `main()`, punto de entrada del programa.
 - **`operaciones.c`**: Un archivo que contiene la implementación de diversas funciones, como operaciones matemáticas simples.
 - **`operaciones.h`**: Un archivo de encabezado (`header`) que declara las funciones y `structs` utilizados en `operaciones.c`.
+- **`structs.h`**: Un archivo de encabezado que declara las estructuras de datos utilizadas en el programa.
 
 ### Ejemplo de `main.c`
 
 ```c
-#include <stdio.h>
-#include "operaciones.h"
+#include <stdio.h> // Incluye la librería estándar de entrada/salida
+#include "operaciones.h" // Incluye el archivo de encabezado de operaciones
 
 int main() {
     int resultado = suma(5, 3);
@@ -24,14 +25,39 @@ int main() {
 
 ### Ejemplo de `main.c`
     
-    ```c
-    #include "operaciones.h"
+```c
+#include "operaciones.h" // Incluye el archivo de encabezado de operaciones
 
-    int suma(int a, int b) {
-        return a + b;
-    }
+int suma(int a, int b) {
+    return a + b;
+}
 
-    int resta(int a, int b) {
-        return a - b;
-    }
+int resta(int a, int b) {
+    return a - b;
+}
+
+### Ejemplo de `operaciones.h`
+
+```c
+#ifndef OPERACIONES_H // Evita la inclusión múltiple del archivo de encabezado
+#define OPERACIONES_H // Define un símbolo para evitar la inclusión múltiple
+
+int suma(int a, int b);
+int resta(int a, int b);
+
+#endif // OPERACIONES_H
+
+### Ejemplo de `structs.h`
+
+```c
+#ifndef STRUCTS_H // Evita la inclusión múltiple del archivo de encabezado
+#define STRUCTS_H // Define un símbolo para evitar la inclusión múltiple
+
+// Definición de una estructura de datos
+typedef struct {
+    int x;
+    int y;
+} Punto;
+
+#endif 
 
