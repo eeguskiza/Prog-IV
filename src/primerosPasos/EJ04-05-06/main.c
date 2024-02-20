@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../../include/complex.h"
+#include "../../../include/complex.h"
 
 int main() {
     Complex a = {2, 3};
@@ -25,6 +25,11 @@ int main() {
     printf("\n");
 
     printf("Modulo \n\n");
-    printf("%f\n", modulo(a)); // Corrige esta línea para incluir el especificador de formato %f
+    printf("%f\n", modulo(a)); 
+    printf("\n");
+    
+    printf("El tamaño de el numero a es %zu \n", sizeof(a)); //zu para size of
+    printf("El tamaño de el numero b es %zu \n", sizeof(b));
+    printf("El tamaño de el numero c es %zu \n", sizeof(c)); 
 
 }

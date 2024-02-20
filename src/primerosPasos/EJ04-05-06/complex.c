@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "../../include/complex.h"
+#include "../../../include/complex.h"
 
 void printComplex(Complex c){
     printf("%f real %f imaginaria\n", c.real , c.imag);

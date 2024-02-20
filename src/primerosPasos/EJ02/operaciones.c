@@ -1,4 +1,4 @@
-#include "../../include/operaciones.h"
+#include "../../../include/operaciones.h"
 
 
 int sumar(int a, int b)

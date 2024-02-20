@@ -1,5 +1,5 @@
 #include <stdbool.h> // Para el tipo de dato bool
-#include "../../include/caracteres.h"
+#include "../../../include/caracteres.h"
 bool isUpperCase(char c) {
     return c >= 'A' && c <= 'Z'; // Verifica si el carácter está entre 'A' y 'Z'
 }
