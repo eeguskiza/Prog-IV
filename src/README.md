@@ -28,6 +28,7 @@ Esta carpeta contiene los ejecutables compilados del proyecto. Los archivos bina
 - [Tipos de Datos en C](Apuntes/tiposDatos.md)
 - [Operadores en C](Apuntes/operadores.md)
 - [Estructuras de Control](Apuntes/flujo.md)
+- [Caracteres de Formateo](Apuntes/caracteres.md)
 
 
 ### Ejemplo de `main.c`
